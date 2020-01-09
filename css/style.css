@@ -31,6 +31,15 @@ html {
         left: 50%;
         transform: translatex(-50%);
     }
+    .project
+    {
+        position:relative;
+        height:550px;
+    }
+    .align-bot{
+        position: absolute;
+        bottom:0;
+    }
 }
 
 .header h1{
@@ -99,16 +108,22 @@ h2,h3{
 }
 
 .project{
+    font-size:0.8em;
     background-color:#272727;
     color:white;
-    float:left;
+   
     width:100%;
     padding-top:2em;
-    height:auto;
-    margin-bottom:2em;
-    border:2px solid rgb(255, 183, 27);
-}
+   
+   
+    margin-bottom: 1em;
 
+    border:2px solid rgb(0, 0, 0);
+}
+.project p
+{
+    margin:1em;
+}
 .project img{
     position: relative;
     bottom: 0;
@@ -138,3 +153,4 @@ h2,h3{
     background-color:rgb(231, 231, 231);
     
 }
+

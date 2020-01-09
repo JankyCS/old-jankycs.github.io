@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/0c78f4c980.js" crossorigin="anonymous"></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js", integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6", crossorigin="anonymous"></script>
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -70,51 +71,76 @@
         </div>
         <div class="row"style="text-align:center" id="projects">
             <div class="col-lg-4">
-                <span class="project">
-                    <h3>TITLE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                <div class="project">
+                    <h3>FRIDGE RECIPES</h3>
+                   
+                        <p>Fridge recipes is a modern day fridge-management, recipe-discovery tool to help users get inspired in the kitchen.
+                            This project is built with NodeJS, and its most popular web framework, ExpressJS. The web-app uses Mongoose to model data, and stores user information
+                            (username, pass, fridge contents) on a MongoDB Atlas database. This project uses the Pug templating engine to render webpages in Express.
+                            
+                        </p>
+                        <div class="align-bot">
+                        <a href="https://github.com/JankyCS/fridge-recipes">
+                        <span class="projlink">
+                            <i class='fab fa-github-alt'></i>
+                            See Repository
+                        </span>
+                        </a>
+                        <a href="https://arcane-beach-51469.herokuapp.com">
+                            <span class="projlink">
+                                <i class="fas fa-globe"></i>
+                                Visit Site
+                            </span>
+                        </a>
+                        <img width="100%"" src="img/fridge.png">
+                    </div>
+                </div >
+            </div>
+            <div class="col-lg-4" >
+               <div class="project">
+                <h3>SAGACITY</h3>
+               
+                <p>
+                    <b>Hack The North 2019 Winner/Finalist</b><br>
+                    This application turns messy fragmented notes into high-quality, well structured ones.
+                    It used text detection models from the Google Cloud Platform as well as robust OCR
+                    to convert the handwriting in the image into text. An NLP model is used to generate text around the key phrases while accounting for related sentences.
+                </p>
+                <div class="align-bot">
+                <a href="https://github.com/nshdesai/Sagacity">
                     <span class="projlink">
                         <i class='fab fa-github-alt'></i>
                         See Repository
                     </span>
-                    <span class="projlink">
-                        <i class="fas fa-globe"></i>
-                        Visit Site
-                    </span>
-                    
-                    
-                    <img width="100%"" src="https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
-                </span >
-            </div>
-            <div class="col-lg-4" >
-               <span class="project">
-                <h3>TITLE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
-                <span class="projlink">
-                    <i class='fab fa-github-alt'></i>
-                    See Repository
-                </span>
-                <span class="projlink">
-                    <i class='fa fa-file-code-o'></i>
-                    See Devpost
-                </span>
-                <img width="100%"" src="https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
-                </span>
-            </div>
-            <div class="col-lg-4">
-                <span class="project">
-                    <h3>TITLE</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
-                    <span class="projlink">
-                        <i class='fab fa-google-play'></i>
-                        Google Play Store
-                    </span>
+                </a>
+                <a href="https://devpost.com/software/sagacity">
                     <span class="projlink">
                         <i class='fa fa-file-code-o'></i>
                         See Devpost
                     </span>
-                    <img width="100%"" src="https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">    
-                </span >
+                </a>
+                <img width="100%"" src="img/sagacity.jpg">
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="project">
+                    <h3>PROTECT</h3>
+                    <p>
+                        A mobile game developed in Unity with C#, and deployed to the Google Play Store.
+                        Basic UI/UX principles regarding minimalist, flat design were applied, and all assets (except the font)
+                        were custom made. 50+ downloads.
+                    </p>
+                    <div class="align-bot">
+                    <a href="https://play.google.com/store/apps/details?id=com.JankyCS.Protect&hl=en_CA">
+                        <span class="projlink">
+                            <i class='fab fa-google-play'></i>
+                            Play Store
+                        </span>
+                    </a>
+                    <img width="100%"" src="img/protect.png">    
+                    </div>
+                </div >
             </div>
         </div>
     </div>
