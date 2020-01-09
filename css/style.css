@@ -26,17 +26,17 @@ html {
         text-align: left !important;
     }
     .navbar-nav
-{
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+    {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
 }
 
 .header h1{
     font-size:5em;
     font-family: 'Raleway', sans-serif;
-    font-weight:bold;
+    font-weight:400;
     color:rgb(255, 204, 108);
 }
 
@@ -84,10 +84,57 @@ html {
 .row{
     padding-top:3em;
 }
-
 h2{
+    font-size: 4em;
+}
+h2,h3{
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
     text-align:center;
+    text-decoration: underline;
 }
 
+@media screen and (min-width: 1264px){
+    
+}
+
+.project{
+    background-color:#272727;
+    color:white;
+    float:left;
+    width:100%;
+    padding-top:2em;
+    height:auto;
+    margin-bottom:2em;
+    border:2px solid rgb(255, 183, 27);
+}
+
+.project img{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.projlink{
+    background-color: rgb(255, 255, 255); /* Green */
+    border: 1px solid rgb(32, 32, 32);
+    color: rgb(37, 37, 37);
+    height: auto;
+    width: 50%;
+    padding:5px;
+    margin-bottom:1em;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.projlink:hover{
+    background-color:#131313;
+    border: 1px solid rgb(255, 190, 11);
+    color: rgb(255, 190, 11);
+}
+
+#projects{
+    background-color:rgb(231, 231, 231);
+    
+}
