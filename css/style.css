@@ -1,10 +1,14 @@
 html {
     scroll-behavior: smooth;
+   
   }
-
+body{
+    background-color:rgb(12, 12, 12);
+    overflow:hidden;
+}
 .header{
      background-image:url("https://wpamelia.com/wp-content/uploads/2019/02/astronomy-constellation-dark-998641.jpg"); 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color:#1b1b1b;
     background-attachment: fixed;
     background-position: center center;
@@ -40,6 +44,35 @@ html {
     .align-bot{
         position: absolute;
         bottom:0;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .project
+    {
+        height:600px; 
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .project
+    {
+        height:650px; 
+    }
+}
+
+@media screen and (min-width: 2100px){
+    .project
+    {
+        height:700px; 
+    }
+}
+
+@media screen and (min-width: 2400px){
+    .project
+    {
+        height:770px;
+        width:436.67px!important;
     }
 }
 
@@ -159,3 +192,83 @@ h2,h3{
     
 }
 
+#content{
+   opacity:0;
+   visibility:hidden;
+    transition-property:opacity;
+    transition-duration: 0.5s;
+}
+
+.show
+{
+    opacity:1!important;
+    visibility:visible!important;
+}
+.linkHide
+{
+    opacity:0;
+    visibility:hidden;
+     transition-property:opacity;
+     transition-duration: 0.5s;
+}
+.hide
+{
+    opacity:0!important;
+    visibility:hidden!important;
+}
+
+html,#load{
+    height:100%!important;
+    
+}
+#load{
+    position:fixed;
+    top:40%;
+    left:50%;
+    display:block;
+    color:white;
+    text-align:center;
+    background-color: rgb(12, 12, 12);
+}
+
+/*Loading Icon from Loading.io*/
+/*vvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+
+  /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  /*Loading icon from loading.io*/
