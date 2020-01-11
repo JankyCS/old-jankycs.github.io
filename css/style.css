@@ -90,7 +90,7 @@ body{
 
 .iconButton
 {
-    background-color: rgb(36, 36, 36); /* Green */
+    background-color: rgb(36, 36, 36)!important; /* Green */
     border: 1px solid white;
     color: rgb(226, 226, 226);
     height: 30px;
@@ -272,3 +272,32 @@ html,#load{
 
   /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
   /*Loading icon from loading.io*/
+
+  form input,textarea{
+    box-sizing: border-box;
+      padding:0.3em;
+      margin: 0.3em;
+      transition:0.2s;
+      border:none;
+  }
+
+  form textarea{
+     max-width:100%;
+  }
+
+  form .input:hover,textarea:hover,.input:focus,textarea:focus{
+    box-shadow:inset 0px 0px 0px 2px rgb(255, 193, 60);
+    background-color: rgb(238, 238, 238);
+    
+ }
+  
+  #contact{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    color:white;
+  }
+  #contactText{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    color:white;
+  }

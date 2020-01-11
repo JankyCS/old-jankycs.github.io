@@ -31,7 +31,7 @@
                 <a class="nav-link" href="#projects">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#experience">EXPERIENCE</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
             </div>
@@ -142,8 +142,14 @@
                             were custom made. 50+ downloads.
                         </p>
                         <div class="align-bot">
+                        <a>
+                            <span class="projlink" style="">
+                                <i class='fab fa-github-alt'></i>
+                                See Repository<br> (Coming Soon)
+                            </span>
+                        </a>
                         <a href="https://play.google.com/store/apps/details?id=com.JankyCS.Protect&hl=en_CA">
-                            <span class="projlink" style="margin-bottom:5em">
+                            <span class="projlink" style="">
                                 <i class='fab fa-google-play'></i>
                                 Play Store
                             </span>
@@ -153,17 +159,34 @@
                     </div >
                 </div>
             </div>
-            <div class="row"style="text-align:center" id="experience">
-                <div class=col-lg-12>
-                    <h2 style="color:white">CONTACT</h2>
-                    
-                    <form action="https://formspree.io/carl.shen1@uwaterloo.ca" method="POST">
-                        <input type="text" name="name">
-                        <input type="email" name="_replyto">
-                        <input type="submit" value="Send">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-4">
+                    <h4 id="contact">CONTACT</h4>
+                    <p id="contactText">
+                        If you ever want to contact me, feel feel free to do so through either this form, or at:
+                        <br>
+                        <br>
+                        carl.shen1@uwaterloo.ca
+                        <br>
+                        Tel: (905) 464-7727
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <form action="https://formspree.io/carl.shen1@uwaterloo.ca" method="POST" id='contactForm'>
+                        <input class="input" required type="text" name="name" placeholder="Name">
+                        <br>
+                        <input class="input"required type="email" name="_replyto" placeholder="Email">
+                        <br>
+                        <textarea required rows="8" cols="1000" name="comment" form="contactForm" placeholder="Your Message Here..." value=""></textarea>
+                        <br>
+                        <input type="submit" value="Send" class="iconButton" style="width:auto;padding-left:5px;padding-right:5px;margin-bottom:3em;">
+                       
                     </form>
                 </div>
-                
+                <div class="col-lg-1">
+                </div>
             </div>
 
         </div>
