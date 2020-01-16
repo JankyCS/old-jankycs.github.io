@@ -7,7 +7,7 @@ body{
     overflow:hidden;
 }
 .header{
-     background-image:url("https://wpamelia.com/wp-content/uploads/2019/02/astronomy-constellation-dark-998641.jpg"); 
+     background-image:url("../img/bg.jpg"); 
     background-repeat: repeat;
     background-color:#1b1b1b;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body{
     text-align:center; 
 }
 #cont{
-    background-image:url("https://wpamelia.com/wp-content/uploads/2019/02/astronomy-constellation-dark-998641.jpg"); 
+    background-image:url("../img/bg.jpg"); 
     background-repeat: repeat;
     background-color:#1b1b1b;
     background-attachment: fixed;
